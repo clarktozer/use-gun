@@ -1,2 +1,3 @@
 # use-gun
-React Hook for interacting with GunDB
+
+React Hook for GunDB
