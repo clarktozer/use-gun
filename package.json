@@ -1,0 +1,51 @@
+{
+    "name": "use-gun",
+    "version": "0.0.1",
+    "description": "React Hooks for GunDB",
+    "main": "lib/index.js",
+    "types": "./lib",
+    "module": "es/index.js",
+    "scripts": {
+        "build": "yarn build:cjs && yarn build:es",
+        "build:cjs": "tsc",
+        "build:es": "tsc -m esNext --outDir es"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/clarktozer/use-gun.git"
+    },
+    "keywords": [
+        "react",
+        "react-hooks",
+        "typescript",
+        "gundb"
+    ],
+    "author": "Clark Tozer <clarkwtozer@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/clarktozer/use-gun/issues"
+    },
+    "homepage": "https://github.com/clarktozer/use-gun#readme",
+    "files": [
+        "esm",
+        "lib"
+    ],
+    "peerDependencies": {
+        "gun": "^0.2020.520",
+        "react": ">=16.8.0"
+    },
+    "devDependencies": {
+        "@types/node": "^12.0.4",
+        "@types/react": "^16.8.19",
+        "@types/react-dom": "^16.8.4",
+        "@typescript-eslint/eslint-plugin": "^4.10.0",
+        "@typescript-eslint/parser": "^4.10.0",
+        "eslint": "^7.16.0",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-plugin-prettier": "^3.3.0",
+        "gun": "^0.2020.520",
+        "prettier": "^2.2.1",
+        "react": "16.8.3",
+        "typescript": "^4.1.3"
+    }
+}

@@ -1,0 +1,14 @@
+# Folders
+.vscode
+node_modules
+src
+.github
+
+# Files
+*.csproj
+.git*
+.editorconfig
+tsconfig.json
+yarn.lock
+.prettierrc
+*.map
