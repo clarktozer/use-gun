@@ -1,3 +1,9 @@
 # use-gun
 
-React Hook for GunDB
+React Hooks for GunDB
+
+GunProvider
+
+useGun
+
+useGunWatch
