@@ -3,7 +3,7 @@ import { IGunInstance } from "../../types";
 import { useGun } from "../useGun";
 
 export const useGunWatch = <T>(key: string, initialValue?: T): [T, () => void] => {
-    const [gun] = useGun();
+    const { gun } = useGun();
     const [value, setValue] = useState<T>(initialValue);
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [instance, setInstance] = useState<IGunInstance>(null);
