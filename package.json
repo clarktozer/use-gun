@@ -1,6 +1,6 @@
 {
     "name": "use-gun",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "React Hooks for GunDB",
     "main": "lib/index.js",
     "types": "./lib",
