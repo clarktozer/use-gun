@@ -2,7 +2,6 @@
 
 ![CI Status](https://img.shields.io/github/workflow/status/clarktozer/use-gun/CI)
 [![npm version](https://img.shields.io/npm/v/use-gun.svg)](https://www.npmjs.com/package/use-gun)
-[![types included](https://badgen.net/npm/types/use-gun)](https://www.npmjs.com/package/use-gun)
 
 React Hooks for GunDB
 
