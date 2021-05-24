@@ -18,7 +18,7 @@ const App: FC = ({ children }) => {
 
     return (
         <GunProvider peerUrls={peers}>
-            <div className="my-app">{children}</div>
+            <div className="my-app"><MyComponent /></div>
         </GunProvider>
     );
 };
